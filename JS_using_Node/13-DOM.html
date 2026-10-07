@@ -1,0 +1,35 @@
+<!-- DOM stands for Document Object Model -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton">Show date</button>
+    <h1 id="head"></h1>
+    <p class="text"></p>
+    <script>
+        const button = document.getElementById("myButton");
+        const heading = document.getElementById("head");
+        button.addEventListener("click", () => {
+            if (heading.textContent === "") {
+                heading.textContent = new Date().toDateString();
+                button.textContent = "Hide date";
+            } else {
+                heading.textContent = "";
+                button.textContent = "Show date";
+            }
+        });
+        const text = document.querySelector(".text");
+        text.textContent = "Some text";
+        text.addEventListener("mouseenter", () => {
+            text.style.color = "red";
+        });
+        text.addEventListener("mouseleave", () => {
+            text.style.color = ""; 
+        });
+    </script>
+</body>
+</html>

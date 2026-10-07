@@ -22,7 +22,6 @@ arr.pop();
 console.log(arr);
 
 
-
 // add element to start
 arr.unshift(5);
 console.log(arr);
