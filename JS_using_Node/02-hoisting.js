@@ -9,3 +9,7 @@ let b=6;
 
 //so in summary b can not be accessed before declaration line
 //same happens for variables declared with const
+
+
+// console.log(c); //error 
+c = 5;

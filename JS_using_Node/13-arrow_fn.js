@@ -5,5 +5,11 @@ let a = () => {
 
 console.log(a());
 
+
 setTimeout(() => console.log("Runs after 1s")
-        , 1000);  // if there is only one line you dont need curly braces
+        , 1000);  
+
+
+let b = () => "fn";
+
+console.log(b());

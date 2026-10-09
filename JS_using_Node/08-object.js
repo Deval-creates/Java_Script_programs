@@ -44,3 +44,19 @@ console.log(person2);
 //now lets delete the salary 
 delete person2.salary;
 console.log(person2);
+
+// using symbol in object
+// symbols are used to create unique property keys which cant be changed 
+let s1 = Symbol("id"); // creating symbol
+let obj = { 
+    [s1]: 12345, // using symbol as a key 
+    name: 'George',
+    age: 52,
+    occ: 'Finance expert',
+    city: 'Miami'
+}
+console.log(obj[s1]); 
+
+obj.s1 = 4321; // this does not change value of id instead it adds s1 key and value 4321
+console.log(obj);
+// so for unique values we are using Symbol();

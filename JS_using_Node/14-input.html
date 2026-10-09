@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="para"></p>
+    <script>
+        // we can take input in JS using prompt function
+        // but it only works in browser not in node
+        let n = prompt("Enter your name: ");
+        console.log("Your name is: " + n);
+        let p = document.querySelector(".para");
+        p.innerHTML = "Your name is " +n;
+    </script>
+</body>
+</html>
+
