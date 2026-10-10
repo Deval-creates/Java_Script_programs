@@ -77,7 +77,7 @@ console.log(u);
 
 // now we will see variables declared without any keyword
 function test(){
-    y = 10; 
+    y2 = 10; 
 }
 test();
 console.log(y); // declared inside function but can be accessed outside function

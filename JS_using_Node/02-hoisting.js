@@ -12,4 +12,4 @@ let b=6;
 
 
 // console.log(c); //error 
-c = 5;
+const c = 5;

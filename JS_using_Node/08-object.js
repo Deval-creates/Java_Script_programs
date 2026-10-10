@@ -60,3 +60,9 @@ console.log(obj[s1]);
 obj.s1 = 4321; // this does not change value of id instead it adds s1 key and value 4321
 console.log(obj);
 // so for unique values we are using Symbol();
+
+
+// using for loop to print object
+for(let k in person2){
+    console.log(k, person2[k]);
+}
