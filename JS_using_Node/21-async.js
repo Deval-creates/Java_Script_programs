@@ -1,4 +1,3 @@
-// await can only be used with in async function
 const {readFile, writeFile} = require("fs/promises");
 const start = async () => {
   try {
