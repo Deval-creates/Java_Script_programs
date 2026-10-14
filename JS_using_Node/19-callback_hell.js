@@ -58,6 +58,6 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
 console.log('starting next task');
 
 /* so as you can see from above example node provided us readFile and writeFile methods to make the code asynchronous */
-/* but this creates call back hell which means lots of callback functions are hard to read so for that reason node introduces the concept of
+/* but this creates call back hell which means lots of callback functions are hard to read so for that reason JS introduces the concept of
 promises and async await */
 

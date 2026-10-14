@@ -5,7 +5,7 @@ let xyz = function xyz(){
     console.log("xyz function");
 }
 module.exports = {
-    x:x,
+    a:x,
     xyz:xyz
 };
 
