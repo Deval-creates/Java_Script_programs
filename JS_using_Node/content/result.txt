@@ -1,2 +1,0 @@
-Result:
- This is a first text file example This is a second text file example

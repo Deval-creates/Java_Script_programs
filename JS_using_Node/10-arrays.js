@@ -114,7 +114,7 @@ console.log(arr6.indexOf(103,2)); // check after index 2
 
 // includes()
 console.log(arr6.includes(102)); //true
-let str_arr = arr6.join(); 
+let str_arr = arr6.join(""); 
 console.log(str_arr);
 console.log(typeof str_arr);
 

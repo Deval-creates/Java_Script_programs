@@ -31,4 +31,3 @@ let p2 = new Promise((resolve, reject) => {
             }
     )})
     .catch((error) => console.log("Error:", error));
-

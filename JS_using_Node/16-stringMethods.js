@@ -42,6 +42,12 @@ console.log(i.toLowerCase());
 console.log(j.toUpperCase());
 
 
+let a = "I am feeling hungry and I am going to eat.";
+let b = a.replaceAll("I","We").replaceAll("am", "are");
+console.log(b);
+
+
+
 
 
 
